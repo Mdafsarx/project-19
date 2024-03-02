@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai universal Hub</title><link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+</head>
+<body class="max-w-[80%] mx-auto">
+    
+<header class="flex justify-center py-5">
+    <h1 class="text-3xl font-extrabold">AI Universe Hub</h1>
+</header>
+
+
+
+<main>
+
+    <div class="flex justify-center items-center">
+        <button class="btn btn-error text-white" onclick="Sort()">Sort By Date</button>
+    </div>
+
+<!-- card of universal -->
+
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-7" id="cardContainer">
+
+    
+
+</section>
+
+<!-- see more button here -->
+<div class="flex justify-center items-center py-5">
+    <button class="btn btn-primary text-white" onclick="SeeMore()" id="seeMore">See More</button>
+</div>
+
+<!-- modal -->
+<!-- Open the modal using ID.showModal() method -->
+<dialog id="D" class="modal modal-bottom sm:modal-middle">
+  
+</dialog>
+
+
+
+</main>
+
+
+<footer>
+
+</footer>
+
+
+<script src="function.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>
